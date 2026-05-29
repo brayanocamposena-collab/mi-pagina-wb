@@ -18,26 +18,11 @@ const btnContact = document.getElementById("btn-contact");
 
 const postsGallery = document.getElementById("posts-gallery");
 
-const workGallery = document.getElementById("work-gallery");
-
-const videosGallery = document.getElementById("videos-gallery");
-
 
 
 // =========================
 // OCULTAR TODO
 // =========================
-
-function hideAll(){
-
-    postsGallery.classList.add("hidden");
-
-    workGallery.classList.add("hidden");
-
-    videosGallery.classList.add("hidden");
-
-}
-
 
 
 // =========================
@@ -64,9 +49,13 @@ btnStart.addEventListener("click", () => {
 
 btnFolder.addEventListener("click", () => {
 
-    hideAll();
+    document
+    .getElementById("posts-gallery")
+    .scrollIntoView({
 
-    workGallery.classList.remove("hidden");
+        behavior: "smooth"
+
+    });
 
 });
 

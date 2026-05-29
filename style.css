@@ -1012,3 +1012,264 @@ body::before{
     background: white;
 
 }
+/* =========================================
+   RESPONSIVE CELULARES
+========================================= */
+
+@media screen and (max-width: 768px){
+
+    /* =========================================
+   RESPONSIVE TABLETS
+========================================= */
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+    /* HERO */
+
+    .hero{
+
+        gap: 40px;
+
+        padding:
+        140px 40px
+        80px 40px;
+
+    }
+
+    /* PERSONAJE */
+
+    .hero-character img{
+
+        width: 220px;
+
+    }
+
+    /* TITULO */
+
+    .hero-title h1{
+
+        font-size: 85px;
+
+    }
+
+    /* GALERIA */
+
+    .gallery{
+
+        grid-template-columns:
+        repeat(2, 1fr);
+
+        width: 95%;
+
+    }
+
+    /* POSTS */
+
+    .post{
+
+        height: 260px;
+
+    }
+
+    /* PDFs */
+
+    .pdf-viewer{
+
+        height: 700px;
+
+    }
+
+    /* CONTACTOS */
+
+    .contact-container{
+
+        gap: 25px;
+
+    }
+
+    .contact-card{
+
+        width: 280px;
+
+    }
+
+}
+
+    /* NAVBAR */
+
+    .navbar{
+
+        height: auto;
+
+        padding: 15px 10px;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+    .tabs{
+
+        width: 100%;
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 10px;
+
+        margin: 0;
+
+    }
+
+    .tabs div{
+
+        font-size: 12px;
+
+        padding: 8px 12px;
+
+    }
+
+    /* HERO */
+
+    .hero{
+
+        flex-direction: column;
+
+        height: auto;
+
+        padding:
+
+        160px 20px
+        60px 20px;
+
+        text-align: center;
+
+        gap: 30px;
+
+    }
+
+    /* PERSONAJE */
+
+    .hero-character img{
+
+        width: 180px;
+
+    }
+
+    /* TITULO */
+
+    .hero-title h1{
+
+        font-size: 65px;
+
+        line-height: 0.9;
+
+    }
+
+    /* TITULOS SECCIONES */
+
+    .section-title{
+
+        font-size: 42px;
+
+        margin-top: 60px;
+
+    }
+
+    /* GALERIA */
+
+    .gallery{
+
+        grid-template-columns: 1fr;
+
+        width: 95%;
+
+        gap: 20px;
+
+        padding: 10px;
+
+    }
+
+    .post{
+
+        height: 240px;
+
+    }
+
+    /* TEXTO DE IMAGENES */
+
+    .post-info h3{
+
+        font-size: 22px;
+
+    }
+
+    .post-info p{
+
+        font-size: 12px;
+
+    }
+
+    /* MODAL */
+
+    .modal-img{
+
+        width: 92%;
+
+        max-height: 80%;
+
+    }
+
+    .close{
+
+        top: 15px;
+
+        right: 20px;
+
+        font-size: 35px;
+
+    }
+
+    /* PDFs */
+
+    .pdf-viewer{
+
+        height: 500px;
+
+    }
+
+    /* CONTACTOS */
+
+    .contact-container{
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .contact-card{
+
+        width: 100%;
+
+        max-width: 340px;
+
+    }
+
+    .contact-info h3{
+
+        font-size: 22px;
+
+    }
+
+    /* LOGO */
+
+    .logo img{
+
+        width: 40px;
+
+    }
+
+}
